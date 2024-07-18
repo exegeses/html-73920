@@ -1,0 +1,23 @@
+
+body{
+    font-family: sans-serif;
+    background-color: hsl(266, 50%, 20%);
+    color: hsl(266, 75%, 86%);
+    font-size: 24px;
+    width: 768px;
+    margin: auto; /* Centrar el contenedor en el eje horizontal */
+}
+main{  
+    margin: 80px;
+}
+
+section{
+    height: 380px;
+    background-color: hsl(266, 50%, 40%);
+}
+    section article{
+        width: 96px;
+        height: 96px;
+        margin: 24px;
+        background-color: hsl(280, 70%, 60%);
+    }
