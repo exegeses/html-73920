@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #606060;
+    color: #e3e3e3;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+main{
+    width: 768px;
+    margin: 40px auto;
+}
+
+    article{
+        width: 128px;
+        height: 80px;
+        background-color: rgb(248, 161, 221);
+        margin: 24px;
+        color: #454444;
+    }
+    #verde{
+        background-color: rgb(130, 245, 130);
+        padding: 16px;
+    }
+
+    p{
+        background-color: #444444;
+        padding: 24px 0px 24px 40px;
+        border-left: 20px solid rgb(102, 198, 242);;
+    }

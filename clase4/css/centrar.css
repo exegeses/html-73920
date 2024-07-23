@@ -1,0 +1,21 @@
+body{
+    margin: 80px 0px;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    background-color: #4f4f4f;
+    color: #fc5f5f;
+}
+#verde{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    background-color: #bdfcdc;
+}
+#naranja{
+    width: 400px;
+    height: 200px;
+    background-color: #fce1bd;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
