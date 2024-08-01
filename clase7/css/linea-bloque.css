@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 24px;
+    background-color: hsl(81, 48%, 11%);
+    color: hsl(81, 70%, 80%);
+}
+    main{
+        width: 780px;
+        margin: 40px auto;
+        min-height: 700px;
+        padding: 24px;
+        background-color: hsl(81, 48%, 6%);
+    }
+    section{
+        margin: 16px 0 40px 0;
+        padding: 32px;
+        background-color: hsl(81, 48%, 12%);
+    }
+        section p{
+            margin: 16px 0px;
+        }
+
+    #inline a, 
+    #inline span
+    {
+        width: 500px; /* no funciona */
+        height: 300px; /* no funciona */
+        margin: 200px 8px; /* no funciona en eje Y */
+        background-color: hsl(81, 48%, 4%);
+    }
+
+    #bloque h3,
+    #bloque article 
+    {
+        width: 216px;
+        height: 40px;
+        margin: 16px;
+        background-color: hsl(81, 48%, 4%);
+    }
+    #linea-bloque img{
+        width: 96px;
+        height: 96px;
+        margin: 32px;
+    }

@@ -153,12 +153,15 @@ main{
             padding: 8px 16px;
             background-color: #fff;
             border-right: 32px solid #07B2FF;
+            border-radius: 8px;
 
+            color: #0B1E46;
             font-size: 24px;
             font-weight: 600;
             text-decoration: none;
         }
             #portfolio  h2{
+                margin-bottom: 8px;
                 font-size: 16px;
                 font-weight: 400;
                 color: #07B2FF;
