@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #afafaf;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#arriba,
+#debajo
+{
+    width: 600px;
+    margin: 40px auto;
+}
+    #arriba article{
+        width: 400px;
+        height: 380px;
+        padding: 24px;
+        border: 3px solid #d50;
+        border-radius: 16px;
+
+        display: flex;
+        align-items: center;
+    }
+    #debajo article{
+        width: 400px;
+        height: 380px;
+        padding: 44px;
+        border: 3px solid #d50;
+        border-radius: 16px;
+    }

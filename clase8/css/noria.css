@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: hsl(213, 42%, 36%);
+}
+#hero-banner{
+    width: 1100px;
+    height: 744px;
+    margin: auto;
+    background-image: url(../imgs/noria-bg-ok.jpg);
+}
+    #hero-banner header{
+        height: 96px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        #hero-banner header img{
+            margin-left: 24px;
+        }
+        #hero-banner header nav a{
+            margin: 8px;
+            font-size: 20px;
+            color:white;
+            text-decoration: none;
+        }
