@@ -167,6 +167,45 @@ main{
                 color: #07B2FF;
             }
 
+/* formulario de contacto */
+    form{
+        width: 648px;
+        height: 464px;
+        margin: 72px auto 0px auto;
+        padding: 44px 84px;
+        border-radius: 16px;
+        background-color: #CCEFFF;
+    }
+        form input,
+        form textarea
+        {
+            width: 100%;
+            padding: 11px 16px;
+            margin-bottom: 32px;
+            border: none;
+            border-left: 12px solid #07B2FF;
+            border-radius: 8px;
+            font-family: "Figtree", sans-serif;
+            color: #0B1E46;
+            font-size: 16px;
+            box-shadow: 0px 4px 4px hsla(0, 0%, 55%, 25%);
+        }
+        textarea{
+            height: 160px;
+            resize: none;
+        }
+        button{
+            width: 160px;
+            padding: 11px;
+            border-radius: 8px;
+            border: none;
+            background-color: #07B2FF;
+            font-family: "Figtree", sans-serif;
+            color: #fff;
+            font-size: 16px;
+            box-shadow: 0px 4px 4px hsla(0, 0%, 55%, 25%);
+        }
+
 /* footer */
 footer{
     background-color: #0B1E46;

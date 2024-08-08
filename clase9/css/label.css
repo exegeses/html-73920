@@ -1,0 +1,21 @@
+body{
+    background-color: #c5c5c5;
+    color: #3c3c3c;
+    font-family: Figtree, Trebuchet MS;
+    font-size: 24px;
+}
+    form{
+        width: 500px;
+        padding: 40px;
+        margin: 80px auto;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+        input[type="checkbox"]{
+            width: 20px;
+            height: 20px;
+        }
+        label{
+            display: block;
+            margin: 12px 0px;
+        }
